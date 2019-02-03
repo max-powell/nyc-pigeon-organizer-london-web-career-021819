@@ -17,7 +17,7 @@ def nyc_pigeon_organizer(data)
   data.each do |trait, options|
     options.each do |option, pigeons|
       pigeons.each do |pigeon|
-        binding.pry
+        new_hash[pigeon][trait] << option
       end
     end
   end
