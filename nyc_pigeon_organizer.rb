@@ -1,6 +1,7 @@
 require "pry"
 
 def nyc_pigeon_organizer(data)
+  #set up new hash
   new_hash = {}
   pigeons = []
   data[:gender].each {|k, v| pigeons << v}
@@ -11,5 +12,8 @@ def nyc_pigeon_organizer(data)
       gender: [],
       lives: []
     }
+  end
+  # input data to new hash
+  data.each do |trait, options|
   end
 end
