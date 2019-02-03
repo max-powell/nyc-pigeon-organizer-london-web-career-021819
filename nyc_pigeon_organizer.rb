@@ -5,4 +5,5 @@ def nyc_pigeon_organizer(data)
   pigeons = []
   data[:gender].each {|k, v| pigeons << v}
   pigeons.flatten!
+  binding.pry
 end
