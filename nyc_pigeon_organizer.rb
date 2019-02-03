@@ -15,6 +15,10 @@ def nyc_pigeon_organizer(data)
   end
   # input data to new hash
   data.each do |trait, options|
-    binding.pry
+    options.each do |option, pigeons|
+      pigeons.each do |pigeon|
+        binding.pry
+      end
+    end
   end
 end
