@@ -1,3 +1,5 @@
 def nyc_pigeon_organizer(data)
-  pigeon_list = {}
+  new_hash = {}
+  pigeons = []
+  data[:gender].each {|k, v| pigeons << v}
 end
